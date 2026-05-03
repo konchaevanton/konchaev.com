@@ -32,3 +32,7 @@ footer {
     text-align: center;
     color: #666;
 }
+nav a.active {
+    font-weight: bold;
+    color: #f00;
+}
