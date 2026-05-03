@@ -10,7 +10,6 @@
         <h2>Результат отправки формы</h2>
         
         <?php
-        // Проверяем, переданы ли обязательные поля
         if (isset($_POST['email']) && isset($_POST['password'])) {
             $email = htmlspecialchars($_POST['email']);
             $name = htmlspecialchars($_POST['name'] ?? 'Не указано');
